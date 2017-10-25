@@ -12,21 +12,21 @@ html {
     height:100%;
 }
 .display {
-	width:70%;
-	margin:0 auto;
- 	display: inline-block;
+    width:70%;
+    margin:0 auto;
+    display: inline-block;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
     text-align: center;
     font-weight: bold;
     font-size:400%;
     color:#ffffff;
+    transform: translate(-50%,-50%);
 }
 .bottom {
-	width:100%;
-	float: left;
+    width:100%;
+    float: left;
     text-align: center;
     font-size:24px;
     color:#ffffff;
@@ -48,7 +48,12 @@ html {
     background-color: #cf4746;
     position: absolute;
 }
-.button {color:#fff;padding:10px 25px 10px 25px;background-color: #222222;border: solid 1px #222222; -moz-border-radius: 4px;
+.button {
+    color:#fff;
+    padding:10px 25px 10px 25px;
+    background-color: #222222;
+    border: solid 1px #222222;
+    -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
     -khtml-border-radius: 4px;font-size:18px;
